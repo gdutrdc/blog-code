@@ -2,9 +2,8 @@
 
 ### 项目结构
 
-master分支放的是整个blog源站代码
-gh-pages分支放的是blog编译成静态文件
-每次写博客的时候都会通过master分支的代码生成静态文件然后部署到gh-pages，所以要记得**每次写完还要提交master分支**，防止别人pull master分支上的代码时拉不到你写的博文，导致最终重新部署到gh-pages的博文覆盖掉你写的博文。
+这个仓库放的是整个blog源站代码,而博客的静态文件代码则在`gdutrdc/gdutrdc.github.io`另外一个仓库上。
+每次写博客的时候都会通过master分支的代码生成静态文件然后部署到`gdutrdc/gdutrdc.github.io`，所以无须关注`gdutrdc/gdutrdc.github.io`上的代码，只要记得**每次写完提交**，防止别人pull代码时拉不到你写的博文，导致最终重新部署到`gdutrdc/gdutrdc.github.io`的博文覆盖掉你写的博文。
 
 ### 怎么发表博客
 
